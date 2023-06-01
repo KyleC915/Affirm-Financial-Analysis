@@ -1,4 +1,4 @@
-# Affirm vs Klarna -Financial-Analysis
+# Affirm vs Klarna Financial Analysis
 
 Project Title: Affirm vs Klarna Financial Performance & Growth Analysis
 We will be analyzing the past three fiscal years (FY 2020 to FY 2022).
