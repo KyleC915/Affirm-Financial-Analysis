@@ -1,7 +1,7 @@
-# Affirm-Financial-Analysis
+# Affirm vs Klarna -Financial-Analysis
 
-Project Title: Affirm Annual Financial Performance vs Growth Analysis
-We will be analyzing the past three fiscal years (FY 2020 to FY 2022) with the FYE date of 6/30.
+Project Title: Affirm vs Klarna Financial Performance & Growth Analysis
+We will be analyzing the past three fiscal years (FY 2020 to FY 2022).
 
 ----------------------------------------------------------------------------------------------------
 
@@ -14,10 +14,12 @@ Steps:
 6) Draw conclusions.
 
 Walkthrough:
-1) I used Excel's Power Query and extracted all historical financial statements from WSJ for the company, Affirm, and removed the 5-year trendline column in the process. (Files can be found in the directory 'UncleanedData').
-2) Then, I manually removed all null rows (I.E Inventory) as the company holds no inventory in every fiscal year ('FY').
-3) I wanted to make it easier to find material changes within the financial statements to visualize later in Tableau. Therefore, I created a common sizing and % change column for each FY. (Find cleaned and organized data in the directory 'CleanedData').
-4) 
+1) I used Excel's Power Query and extracted all historical financial statements from Affirm's Annual Reports and Klarna's Annual Reports.  (PDF and Excel is located in 'FinancialStatements' folder).
+2) Cleaned the data through Excel, SQL was not needed since there were little number of rows and columns, fixed titles and removed null values.
+**NOTE: When extracting the data, the words in column 1 did not space out correctly. We can fix this in our visualization in Tableau.**
+3) Converted Klarna's Financial Statements to USD from SEKm. (Klarna is based out of Sweden).
+4) To make it easier to find material changes in the financial statements I created a common sizing % and % change column for each FY. This will make it easier to depict what is important for our visualizations.
+
 
 
 
