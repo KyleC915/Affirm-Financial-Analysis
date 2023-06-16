@@ -18,9 +18,10 @@ Steps:
 
 Walkthrough:
 1) I used Excel's Power Query and extracted all historical financial statements from Affirm's Annual Reports.  (PDF and Excel is located in 'FinancialStatements' folder).
-2) Cleaned the data through Excel, SQL was not needed since there were little number of rows and columns, fixed titles and removed null values.
+2) Cleaned the data through Excel, SQL was not needed since there were few number of rows and columns, fixed titles and removed null values.
 **NOTE: When extracting the data, the words in column 1 did not space out correctly for Affirm. We can fix this in our visualization in Tableau.**
 3) To make it easier to find material changes in the financial statements I created a common sizing % and % change column for each FY. This helps analyze what changed significantly.
 
 Analysis:
 1) Please see Financial Analysis in Tableau.
+2) The buttons redirect you to the respective dashboard on the top of the dashboard.
